@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: black;
+
+}
+.tema {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../gorsel_icerik/anasayfa_fon.jpg);
+	height: 200vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.menu {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.anasayfa-icerik {
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin-top: 175px;
+	margin-bottom: 100px;
+	margin-right: 375px;
+	margin-left: 375px;
+	background: rgba(134, 134, 134, 0.6);
+	padding: 25px 50px;
+	color: #ffffff;
+	font-size: 26px;
+}
+.anasayfa-icerik h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.anasayfa-icerik h1 span {
+	color: #00fecb;
+}
+.anasayfa-icerik a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.anasayfa-icerik a:hover {
+	background: #fff;
+	color: #333;
+}
+
+@media (max-width:600px) {
+	.tema {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: ;
+	}
+	.menu {
+		float: none;
+		margin-top: 0;
+	}
+	.menu li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.menu {
+		text-align: center;
+	}
+	.anasayfa-icerik {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.anasayfa-icerik h1 {
+		font-size: 30px;
+	}
+}

@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../gorsel_icerik/anasayfa_fon.jpg);
+  height: 100vh;
+	-webkit-background-size: cover;
+  background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.giris-tema {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.giris-formu {
+  max-width: 500px;
+  max-height: 2000px;
+  padding: 25px 25px 50px;
+  margin: 0 auto;
+  background-color: #8f8f8f;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.giris-formu .giris-formu-heading,
+.giris-formu .checkbox {
+  margin-bottom: 30px;
+}
+.giris-formu .checkbox {
+  font-weight: normal;
+}
+.giris-formu .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.giris-formu .form-control:focus {
+  z-index: 2;
+}
+.giris-formu input[type=text] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.giris-formu input[type=password] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
